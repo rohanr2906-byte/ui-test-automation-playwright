@@ -1,0 +1,28 @@
+{
+  "name": "ui-test-automation-playwright",
+  "version": "1.0.0",
+  "description": "Playwright TypeScript UI test automation demo using Page Object Model and HTML reporting.",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "test:ui": "playwright test --ui",
+    "report": "playwright show-report"
+  },
+  "keywords": [
+    "playwright",
+    "typescript",
+    "ui-testing",
+    "test-automation",
+    "page-object-model",
+    "qa"
+  ],
+  "author": "Rohan Rosario Ravikanth",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.56.0",
+    "@types/node": "^24.0.0",
+    "typescript": "^5.9.3"
+  }
+}
